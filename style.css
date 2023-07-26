@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #015834, #10186ae2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span {
+    color: #ff2963;
+}
+
+.hero textarea {
+    height: 35vh;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #403d84;
+    color: #fff;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder {
+    font-size: 15px;
+    color: #ffffffae;
+}
+
+.row {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* background-color: #015834; */
+}
+
+.row button {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #ff2963;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.row button i {
+    padding-right: 10px;
+}
+
+.row button:hover {
+    background-color: white;
+    color: #ff2963;
+    border: 1px solid #ff2963;
+}
+.row select {
+    flex: 1;
+    color: white;
+    background-color: #403d84;
+    height: 43px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(img/273-2739733_white-drop-down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+
+}
