@@ -32,7 +32,7 @@
     font-size: 15px;
     border: none;
     outline: none;
-    background-color: #403d84;
+    background-color: #3d618b81;
     color: #fff;
     resize: none;
     margin-bottom: 30px;
@@ -72,7 +72,7 @@ textarea::placeholder {
 .row select {
     flex: 1;
     color: white;
-    background-color: #403d84;
+    background-color: #3d618b81;
     height: 43px;
     padding: 0 20px;
     outline: 0;
