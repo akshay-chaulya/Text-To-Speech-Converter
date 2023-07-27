@@ -133,11 +133,12 @@ textarea::placeholder {
     .row select {
         flex: none;
         height: 35px;
-        padding: 0 30px;
+        /* padding: 0 30px; */
         background-size: 12px;
         background-position-x: calc(100% - 12px);
         background-position-y: 15px;
         font-size: 13px;
+        width: 65vw;
     }
 
     .row button {
@@ -225,4 +226,25 @@ textarea::placeholder {
         font-size: 4vh;
         padding: 10px;
     }
+    /* .hero select {
+        width: 90vw;
+    } */
+}
+
+@media (max-width: 246px) {
+    .hero h1 {
+        font-size: 3.6vh;
+    }
+    /* .hero select {
+        width: 90vw;
+    } */
+}
+
+@media (max-width: 226px) {
+    .hero h1 {
+        font-size: 3.2vh;
+    }
+    /* .hero select {
+        width: 90vw;
+    } */
 }
