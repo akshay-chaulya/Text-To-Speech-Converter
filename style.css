@@ -47,7 +47,6 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     gap: 50px;
-    /* background-color: #015834; */
 }
 
 .row button {
@@ -70,6 +69,7 @@ textarea::placeholder {
     border: 1px solid #ff2963;
 }
 .row select {
+    font-size: 15px;
     flex: 1;
     color: white;
     background-color: #3d618b81;
