@@ -1,10 +1,11 @@
 /* for responsiveness */
 /* 1st */
-@media screen and (max-width: 414px) {
 
+@media (max-width: 480px) {
     .hero h1 {
-        font-size: 5vh;
+        font-size: 7vh;        
         margin: 20px;
+
     }
 
     .hero textarea {
@@ -13,35 +14,53 @@
     }
 
     .row {
-        height: 20vh;
+        min-height: 20vh;
         width: 80vw;
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: space-around;
         gap: 0;
     }
 
     .row select {
         flex: none;
-        color: white;
-        background-color: #3d618b81;
         height: 35px;
-        padding: 0 40px;
-        outline: 0;
-        border: 0;
-        border-radius: 35px;
-        appearance: none;
-        background-image: url(img/273-2739733_white-drop-down-arrow.png);
-        background-repeat: no-repeat;
+        padding: 0 30px;
         background-size: 12px;
-        background-position-x: calc(100% - 15px);
+        background-position-x: calc(100% - 12px);
         background-position-y: 15px;
         font-size: 13px;
     }
 
     .row button {
-        padding: 5px;
+        padding: 5px 8px;
         font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .hero h1 {
+        font-size: 6.5vh;
+    }
+
+    .row select {
+        padding: 0 28px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero h1 {
+        font-size: 6vh;
+    }
+
+    .row select {
+        padding: 0 25px;
+        background-position-x: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 340px) {
+    .hero h1 {
+        font-size: 5.5vh;
     }
 }
