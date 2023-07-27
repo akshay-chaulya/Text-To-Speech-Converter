@@ -56,11 +56,49 @@
     .row select {
         padding: 0 25px;
         background-position-x: calc(100% - 10px);
+        font-size: 12px;
+    }
+    .row button {
+        font-size: 12px;
     }
 }
 
 @media (max-width: 340px) {
     .hero h1 {
         font-size: 5.5vh;
+    }
+    .row select {
+        font-size: 11px;
+    }
+    .row button {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 314px) {
+    .hero h1 {
+        font-size: 5vh;
+    
+    }
+    .row select {
+        font-size: 10px;
+    }
+    .row button {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 288px) {
+    .hero h1 {
+        font-size: 4.8vh;
+    
+    }
+}
+
+@media (max-width: 279px) {
+    .hero h1 {
+        font-size: 4.5vh;
+    
     }
 }
