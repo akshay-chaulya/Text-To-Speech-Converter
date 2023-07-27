@@ -14,12 +14,14 @@
     flex-direction: column;
     color: white;
 }
+
 .hero h1 {
     font-size: 45px;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
 }
+
 .hero h1 span {
     color: #ff2963;
 }
@@ -37,6 +39,7 @@
     resize: none;
     margin-bottom: 30px;
 }
+
 textarea::placeholder {
     font-size: 15px;
     color: #ffffffae;
@@ -59,6 +62,7 @@ textarea::placeholder {
     border-radius: 35px;
     cursor: pointer;
 }
+
 .row button i {
     padding-right: 10px;
 }
@@ -68,6 +72,7 @@ textarea::placeholder {
     color: #ff2963;
     border: 1px solid #ff2963;
 }
+
 .row select {
     font-size: 15px;
     flex: 1;
@@ -107,7 +112,7 @@ textarea::placeholder {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 7vh;        
+        font-size: 7vh;
         margin: 20px;
 
     }
@@ -145,6 +150,7 @@ textarea::placeholder {
 
     .hero h1 {
         font-size: 6.5vh;
+        margin: 18px;
     }
 
     .row select {
@@ -155,6 +161,7 @@ textarea::placeholder {
 @media (max-width: 380px) {
     .hero h1 {
         font-size: 6vh;
+        margin: 16px;
     }
 
     .row select {
@@ -162,6 +169,7 @@ textarea::placeholder {
         background-position-x: calc(100% - 10px);
         font-size: 12px;
     }
+
     .row button {
         font-size: 12px;
     }
@@ -170,10 +178,13 @@ textarea::placeholder {
 @media (max-width: 340px) {
     .hero h1 {
         font-size: 5.5vh;
+        margin: 15px;
     }
+
     .row select {
         font-size: 11px;
     }
+
     .row button {
         font-size: 11px;
     }
@@ -182,11 +193,13 @@ textarea::placeholder {
 @media (max-width: 314px) {
     .hero h1 {
         font-size: 5vh;
-    
+        margin: 14px;
     }
+
     .row select {
         font-size: 10px;
     }
+
     .row button {
         font-size: 10px;
     }
@@ -195,14 +208,21 @@ textarea::placeholder {
 
 @media (max-width: 288px) {
     .hero h1 {
-        font-size: 4.8vh;
-    
+        font-size: 4.5vh;
+        padding: 14px;
     }
 }
 
-@media (max-width: 279px) {
+@media (max-width: 271px) {
     .hero h1 {
-        font-size: 4.5vh;
-    
+        font-size: 4.3vh;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 260px) {
+    .hero h1 {
+        font-size: 4vh;
+        padding: 10px;
     }
 }
